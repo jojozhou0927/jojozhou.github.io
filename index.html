@@ -15,10 +15,11 @@
 
         .nav-item {
             margin: 0 20px;
+            background-color: #d66ba0;
         }
 
         .nav-link {
-            color: #fff;
+            color: #000000;
         }
 
         #about {
@@ -47,7 +48,7 @@
 
         section {
             padding: 200px 0;
-            height: 100vh;
+            min-height: 100vh;
         }
 
         
@@ -56,20 +57,26 @@
 
 <body>
     
-    <nav class="navbar fixed-top navbar-expand-lg"></nav>
-        <ul class="nav justify-content-center">
-            <li class="nav-item border rounded-5">
-              <a class="nav-link active" aria-current="page" href="#about">Home</a>
+    <nav class="navbar navbar-expand-lg"></nav>
+        <ul class="nav fixed-top justify-content-center">
+            <li class="nav-item rounded-pill">
+              <a id="about-nav" class="nav-link active" aria-current="page" href="#about">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
+            <li class="nav-item rounded-pill">
+              <a id="education-nav" class="nav-link" href="#education">Education</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+            <li class="nav-item rounded-pill">
+              <a id="skills-nav" class="nav-link" href="#skills">Skills</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+            <li class="nav-item rounded-pill">
+              <a id="projects-nav" class="nav-link" href="#projects">Projects</a>
             </li>
+            <li class="nav-item rounded-pill">
+                <a id="resume-nav" class="nav-link" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item rounded-pill">
+                <a id="contact-nav" class="nav-link" href="#contact">Contact</a>
+              </li>
           </ul>
     </nav>
     
@@ -179,6 +186,7 @@
             <h2>Resume</h2>
             <a href="resume.pdf" class="btn btn-primary">Download Resume</a>
         </div>
+        </section>
 
     <section id="contact" class="py-5">
         <div class="container">
@@ -204,6 +212,12 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="portfolio.js"></script>
 </body>
+
+<footer>
+    <h5>© 2024 My Portfolio</h5>
+    <p>This portfolio is created for an assigment and may contains inaccurate information for display purpose.</p>
+</footer>
 
 </html>
