@@ -1,34 +1,14 @@
-const sections = ["about", "education", "skills", "projects", "resume", "contact"];
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
-var sectionPositions = {};
-sections.forEach((s) =>
-{
-    console.log("section: " + s);
-    sectionPositions[s] = document.getElementById(s).offsetTop;
-});
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
 
+// Carousel start code
+  const myCarouselElement = document.querySelector('#carouselExampleIndicators')
 
-addEventListener("scroll", (event) => 
-{
-    var y = window.scrollY;
-    var currentSection = "";
-    sections.forEach((section) => 
-    {
-        console.log("Sroll section: " + section);
-        if (y >= sectionPositions[section])
-        {
-            var currentLink = document.getElementById(currentSection + "-nav");
-            if (currentLink != null)
-            {
-                currentLink.classList.remove("active");
-            }
-            currentSection = sections;
-        }
-    });
-
-    
-    var currentLink = document.getElementById(currentSection + "-nav");
-    currentLink.classList.add("active");
-
-    
-});
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 2000,
+  touch: false
+})
