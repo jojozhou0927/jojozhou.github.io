@@ -8,122 +8,67 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
-    <style>
-        .navbar {
-            background-color: transparent;
-        }
-
-        .nav-item {
-            margin: 0 20px;
-            background-color: #d66ba0;
-        }
-
-        .nav-link {
-            color: #000000;
-
-        }
-
-        #about {
-            background-color: #ff9ecf;
-        }
-
-        #education {
-            background-color: #fac0db;
-        }
-
-        #skills {
-            background-color: #d6eadf;
-        }
-
-        #projects {
-            background-color: #b8e0d2;
-        }
-
-        #resume {
-            background-color: #95b8d1;
-        }
-
-        #contact {
-            background-color: #f2dfe7;
-        }
-
-        section {
-            padding: 200px 0;
-            min-height: 100vh;
-        }
-
-        .skillcard {
-            width: 18rem;
-        }
-
-        #skills img {
-            width: 100px;
-            height: 100px;
-        }
-
-        #skills * {
-            background-color: transparent;
-        }
-
-        .active {
-            color: white;
-            font-weight: 900;
-        }
-
-        .carousel-caption {
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-    </style>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-1">
+    <header id="header" class="d-flex flex-column justify-content-center">
+        <nav id="navbar-1" class="navbar navbar-expand-lg">
+            <ul class="nav flex-column justify-content-center">
+                <li class="nav-item rounded-pill">
+                    <a id="about-nav" class="nav-link" aria-current="page" href="#about" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+                        <i class="fi fi-br-info"></i>
+                    </a>
+                </li>
+                <li class="nav-item rounded-pill">
+                    <a id="education-nav" class="nav-link" href="#education" data-toggle="tooltip" data-placement="bottom"
+                        title="Education">
+                        <i class="fi fi-br-graduation-cap"></i></a>
+                </li>
+                <li class="nav-item rounded-pill">
+                    <a id="skills-nav" tool-tip="skills" class="nav-link" href="#skills" data-toggle="tooltip"
+                        data-placement="bottom" title="Skills">
+                        <i class="fi fi-br-magic-wand"></i></a>
+                </li>
+                <li class="nav-item rounded-pill">
+                    <a id="projects-nav" class="nav-link" href="#projects" data-toggle="tooltip" data-placement="bottom"
+                        title="Projects"><i class="fi fi-br-square-terminal"></i></a>
+                </li>
+                <li class="nav-item rounded-pill">
+                    <a id="resume-nav" class="nav-link" href="#resume" data-toggle="tooltip" data-placement="bottom"
+                        title="Resume"><i class="fi fi-br-file-user"></i></a>
+                </li>
+                <li class="nav-item rounded-pill">
+                    <a id="contact-nav" class="nav-link" href="#contact" data-toggle="tooltip" data-placement="bottom"
+                        title="Contact"><i class="fi fi-br-comment-smile"></i></a>
+                </li>
+            </ul>
+        </nav>
+    
+      </header>
+   
 
-    <nav id="navbar-1" class="navbar navbar-expand-lg">
-        <ul class="nav fixed-top justify-content-center">
-            <li class="nav-item rounded-pill">
-                <a id="about-nav" class="nav-link" aria-current="page" href="#about" data-toggle="tooltip"
-                    data-placement="bottom" title="About">
-                    <i class="fi fi-br-info"></i>
-                </a>
-            </li>
-            <li class="nav-item rounded-pill">
-                <a id="education-nav" class="nav-link" href="#education" data-toggle="tooltip" data-placement="bottom"
-                    title="Education">
-                    <i class="fi fi-br-graduation-cap"></i></a>
-            </li>
-            <li class="nav-item rounded-pill">
-                <a id="skills-nav" tool-tip="skills" class="nav-link" href="#skills" data-toggle="tooltip"
-                    data-placement="bottom" title="Skills">
-                    <i class="fi fi-br-magic-wand"></i></a>
-            </li>
-            <li class="nav-item rounded-pill">
-                <a id="projects-nav" class="nav-link" href="#projects" data-toggle="tooltip" data-placement="bottom"
-                    title="Projects"><i class="fi fi-br-square-terminal"></i></a>
-            </li>
-            <li class="nav-item rounded-pill">
-                <a id="resume-nav" class="nav-link" href="#resume" data-toggle="tooltip" data-placement="bottom"
-                    title="Resume"><i class="fi fi-br-file-user"></i></a>
-            </li>
-            <li class="nav-item rounded-pill">
-                <a id="contact-nav" class="nav-link" href="#contact" data-toggle="tooltip" data-placement="bottom"
-                    title="Contact"><i class="fi fi-br-comment-smile"></i></a>
-            </li>
-        </ul>
-    </nav>
 
-
-    <section id="about" class="py-5">
+    <section id="about" class="py-5 d-flex flex-column justify-content-center">
         <div class="container">
             <h1 class="text-end">About Me</h1>
             <div class="jumbotron">
-                <h1 class="display-4">Development & Design</h1>
-                <p class="lead">Software developer with experience in web/mobile/desktop development experience ready to help your projects succeed.</p>
+                <h1 class="display-4">Zhongwen Zhou (JoJo)</h1>
+                <h3 class="lead">Software developer graduated from Mohawk College passionated in web application development.</h3>
+                <p>My experience in software development, system design and project management will definitely be able to contribute to the success of your projects.</p>
                 <hr class="my-4">
-                <p>Application design, development, project management and more. </p>
+                
                 <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    <p>Disclaimer: This portfolio is created for an assignment and the information below are
+                        fake.</p>
+                    <p>To learn more: </p>
+                    <a class="btn btn-lg rounded-circle" href="https://github.com/jojozhou0927"><i class="bi bi-github"></i></a>
+                    <a class="btn btn-lg rounded-circle" href="www.linkedin.com/in/jojo-zhou-97a500258"><i class="bi bi-linkedin"></i></a>
+                    
                 </p>
-              </div>
+            </div>
         </div>
     </section>
 
@@ -131,16 +76,18 @@
         <div class="container">
             <h1 class="text-end">Education</h1>
             <div class="card">
-                <img src="https://www.mohawkcollege.ca/themes/de_theme/logo-color.png" class="card-img"
+                <img src="https://www.mohawkcollege.ca/themes/de_theme/logo-color.png" class="card-img self-align-center"
                     alt="Mohawk Logo">
 
                 <div class="card-image-overlay">
                     <div class="card-title">
                         <h2>Mohawk College</h2>
                     </div>
-                    <h2>Education</h2>
-                    <h3>Mohawk College</h3>
-                    <h5>Computer Systems Technician - Software Support</h5>
+                    <div class="card-body">
+                        <h5>Computer Systems Technician - Software Support</h3>
+                    </div>
+                    <div class="card-footer">
+                        <p>2022 - 2024</p>
                 </div>
             </div>
 
@@ -148,151 +95,251 @@
     </section>
 
     <section id="skills" class="py-5">
-        <div class="row">
+        <div class="container">
             <h1 class="text-end">Skills</h1>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <div class="row">
-                        <h3>Programming Languages</h3>
+            <div class="card">
+                <div class="card-header">
+                    Programming Languages
+                </div>
+                <div class="card-body d-flex flex-wrap">
+                    <div>
+                        <img src="asset/img/java-script.png" alt="JavaScript">
+                        <p>JavaScript</p>
                     </div>
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-lg" >
-                            <img src="asset/img/java-script.png" alt="Javascript"><p>Javascript</p>
-                        </button>
-                        <button type="button" class="btn btn-lg">
-                            <img src="asset/img/html-5.png" alt="Html"><p>HTML</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" >
-                            <img src="asset/img/css-3.png" alt="Css"><p>CSS</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" >
-                            <img src="asset/img/java.png" alt="Java"><p>JAVA</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" >
-                            <img src="asset/img/c-sharp.png" alt="Csharp"><p>C#</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" >
-                            <img src="asset/img/python.png" alt="Python"><p>Python</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" >
-                            <img src="asset/img/sql.png" alt="SQL"><p>SQL</p>
-                        </button>
+                    <div>
+                        <img src="asset/img/html-5.png" alt="HTML">
+                        <p>HTML</p>
                     </div>
-                </li>
-                <li class="list-group-item text-end ">
-                    <h3>Tools</h3>
-                    <div class="d-flex flex-row justify-content-end">
-                        <button type="button" class="btn btn-lg"><img src="asset/img/vs.png" alt="Visual Studio"><p>Visual Studio</p>
-                        </button>
-                        <button type="button" class="btn btn-lg"><img src="asset/img/intellij.png" alt="IntelliJ"><p>IntelliJ</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/vscode.png" alt="VS Code"><p>VS Code</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/git.png" alt="Git"><p>Git</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/github.png" alt="GitHub"><p>GitHub</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/sql-server.png" alt="SQL Server">
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/mysql.png" alt="MySQL"><p>MySQL</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/wordpress.png" alt="Wordpress"><p>WordPress</p>
-                        </button>
+                    <div>
+                        <img src="asset/img/css-3.png" alt="CSS">
+                        <p>CSS</p>
                     </div>
-                </li>
-                <li class="list-group-item">
-                    <h3>Other Skills</h3>
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-lg"><img src="asset/img/uml.png" alt="System Analysis & Design"><p>System Analysis & Design</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/project-management.png" alt="Project Management"><p>Project Management</p>
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/vscode.png" alt="VS Code">
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/git.png" alt="Git">
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/github.png" alt="GitHub">
-                        </button>
-                        <button type="button" class="btn btn-lg" ><img src="asset/img/python.png" alt="Python">
-                        </button>
+                    <div>
+                        <img src="asset/img/java.png" alt="Java">
+                        <p>Java</p>
                     </div>
-                </li>
+                    <div>
+                        <img src="asset/img/c-sharp.png" alt="C#">
+                        <p>C#</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/python.png" alt="Python">
+                        <p>Python</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/sql.png" alt="SQL">
+                        <p>SQL</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Tools
+                </div>
+                <div class="card-body d-flex flex-wrap">
+                    <div>
+                        <img src="asset/img/vs.png" alt="Visual Studio">
+                        <p>Visual Studio</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/intellij.png" alt="IntelliJ">
+                        <p>IntelliJ</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/vscode.png" alt="VSCode">
+                        <p>VS Code</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/git.png" alt="Git">
+                        <p>Git</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/github.png" alt="GitHub">
+                        <p>GitHub</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/sql-server.png" alt="SQLServer">
+                        <p>SQL Server</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/mysql.png" alt="MySQL">
+                        <p>MySQL</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/wordpress.png" alt="Wordpress">
+                        <p>WordPress</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Other Skills
+                </div>
+                <div class="card-body d-flex flex-wrap">
+                    <div>
+                        <img src="asset/img/uml.png" alt="System Analysis & Design">
+                        <p>System Analysis & Design</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/project-management.png" alt="Project Management">
+                        <p>Project Management</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
         </div>
     </section>
 
-<section id="projects">
-    <div class="container">
-        <h2>Software Projects</h2>
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <section id="projects">
+        <div class="container">
+            <h1 class="text-end">Projects</h1>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="asset/img/candyshop.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Candy Shop</h5>
+                            <p>Website designed for local candy shop to promote its products built React</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="asset/img/gamedesign.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Channel Game</h5>
+                            <p>Simple but fun Super Mario style online game built with Javascript.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="asset/img/todo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>TODO App</h5>
+                            <p>Cross platform TODO app to manage your day to day schedule with ease.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="asset/img/candyshop.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Candy Shop</h5>
-                  <p>Website designed for local candy shop to promote its products built React</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="asset/img/gamedesign.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Channel Game</h5>
-                  <p>Simple but fun Super Mario style online game built with Javascript.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="asset/img/todo.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>TODO App</h5>
-                  <p>Cross platform TODO app to manage your day to day schedule with ease.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div>
-</section>
-        
+        </div>
+    </section>
+
     </section>
 
     <section id="resume">
         <div class="container">
+            <h1 class="text-end">Resume</h1>
             
             
-        </div>
+              
+                <div id="exp-1" class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-3 text-center">
+                            <img src="asset/img/global.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">Software Developer - Unreal Global Tech</h5>
+                                <p class="card-text">Work closely with customers and develop business websites, mobile applications for their needs.</p>
+                                <p class="card-text"><small class="text-body-secondary">2024</small>
+                                <p class="card-footer">HTML, JavaScript, CSS</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                   
+                <div id="exp-2" class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-3 text-center">
+                            <img src="asset/img/ABCEdu.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Application Developer - Imaginary ABC
+                                    Education</h5>
+                                <p class="card-text">Develop educational games, web applications for young kids to learn reading, math and science.</p>
+                                <p class="card-text"><small class="text-body-secondary">2023 - 2024</small>
+                                <p class="card-footer">HTML, JavaScript, CSS</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="exp-3" class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-3 text-center">
+                            <img src="asset/img/gamestudio.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">Game Development Intern - Unrealistic Game Studio</h5>
+                                <p class="card-text">Develop differnt types of games with Javascript that can be played directly in the browser</p>
+                                <p class="card-text"><small class="text-body-secondary">2023</small>
+                                <p class="card-footer">HTML, JavaScript, CSS</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="exp-4" class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-3 text-center">
+                            <img src="asset/img/Mohawk-College-Logo.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">Volunteer</h5>
+                                <p class="card-text">Assist in development of simple websites</p>
+                                <p class="card-text"><small class="text-body-secondary">2022</small>
+                                <p class="card-footer">HTML, CSS</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
     </section>
 
     <section id="contact" class="py-5">
         <div class="container">
-            <h2>Contact Me</h2>
-            <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <h1 class="text-end">Contact</h1>
+            <div class="col-md-6">
+            <div class="list-group list-group-flush row gy-5">
+                <a href="mailto:zhongwen.zhou@mohawkcollege.ca" class="list-group-item list-group-item-action"
+                    aria-current="true">
+                    <i class="bi bi-envelope"></i> Email: zhongwen.zhou@mohawkcollege.ca
+                </a>
+                <a href="https://github.com/jojozhou0927" class="list-group-item list-group-item-action"
+                    aria-current="true">
+                    <i class="bi bi-github"></i> GitHub: jojozhou0927
+                </a>
+                <a href="www.linkedin.com/in/jojo-zhou-97a500258" class="list-group-item list-group-item-action"
+                    aria-current="true">
+                    <i class="bi bi-linkedin"> </i> Linkedin: Zhongwen Zhou
+                </a>
+                 
+            </div></div>
         </div>
     </section>
 
@@ -307,14 +354,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
 
 </body>
 
 <footer>
     <h5>© 2024 My Portfolio</h5>
     <p>This portfolio is created for an assigment and may contains inaccurate information for display purpose.</p>
-    <a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Pixel perfect -
-        Flaticon</a>
+    <ul class="list-group">
+        <a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Pixel perfect -
+            Flaticon</a>
+        <a href="https://www.freepik.com/free-vector/abstract-low-poly-network-communications-banner-design_21952524.htm#&position=14&from_view=search&track=ais&uuid=beb0980f-0ffb-461e-8a3e-868e0deb21b8#position=14">Image by kjpargeter</a> on Freepik
+    </ul>
 </footer>
 
 </html>
