@@ -1,114 +1,15 @@
-#header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 9997;
-    transition: all 0.5s;
-    padding: 15px;
-    overflow-y: auto;
-  }
+
+/* General Styles */
+
 .container {
-    padding: 50px;
-}
-
-.navbar {
-    background-color: transparent;
-}
-
-.nav-item {
-    margin:  20px;
-    background-color: #ffffff;
-}
-
-.nav-link i {
-    color: #000000;
-    font-size: 25px;
-}
-
-
-.active {
-    color: rgb(246, 138, 250);
-    font-weight: 900;
-}
-
-#about {
-    background-image: url('asset/img/Background.jpeg');
-}
-
-#education {
-    background-image: url('asset/img/bg-education.jpg');
-}
-
-#skills {
-    background-image: url('asset/img/bg-skills.jpg');
-}
-
-#skills p {
-    text-align: center;
-}
-
-#skills .card {
-    margin: 10px;
-}
-
-#skills .card-text {
-    text-align: center;
-}
-
-#projects {
-    background-image: url('asset/img/bg-projects.jpg');
-}
-
-#resume {
-    background-image: url('asset/img/bg-resume.jpg');
-}
-
-#contact {
-    background-image: url('asset/img/bg-contact.jpg');
+    padding: 100px 20px 100px 20px;
 }
 
 section {
-    padding: 20px 200px 0px 200px ;
+    
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#education img {
-    max-width: 500px;
-}
-
-#skills img {
-    width: 80px;
-    height: 80px;
-}
-
-#skills div {
-    margin: 0 20px;
-}
-
-#skills * {
-    background-color: transparent;
-}
-
-
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#resume img {
-    height: 150px;
-}
-
-#resume .card {
-    padding: 20px;
-}
-
-.jumbotron {
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .card {
@@ -119,4 +20,114 @@ section {
 
 * {
     color: #6a6a6a;
+    background-color: transparent;
 }
+
+
+/* Navbar */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+  }
+
+.nav-item {
+    margin:  10px;
+    background-color: rgb(255,255,255,0.3);
+}
+
+.nav-link i {
+    color: #000000;
+    font-size: 25px;
+}
+
+.active i {
+    font-weight: 900;
+}
+
+
+/* About */
+
+#about {
+    background-image: url('asset/img/Background.jpeg');
+}
+
+.jumbotron {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Education */
+
+#education {
+    background-image: url('asset/img/bg-education.jpg');
+}
+
+#education img {
+    max-width: 500px;
+}
+
+/* Skills */
+
+#skills {
+    background-image: url('asset/img/bg-skills.jpg');
+}
+
+#skills p,
+#skills .card-text {
+    text-align: center;
+}
+
+#skills img {
+    width: 80px;
+    height: 80px;
+}
+
+#skills .card-body div {
+    margin: 10px;
+}
+
+/* Projects */
+
+#projects {
+    background-image: url('asset/img/bg-projects.jpg');
+}
+
+.carousel-caption {
+    color: #6a6a6a;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Resume */
+
+#resume {
+    background-image: url('asset/img/bg-resume.jpg');
+}
+
+#resume img {
+    height: 150px;
+}
+
+#resume .card {
+    padding: 20px;
+}
+
+/* Contact */
+
+#contact {
+    background-image: url('asset/img/bg-contact.jpg');
+}
+
+
+
+
+
+
+
+

@@ -13,95 +13,115 @@
     <link rel="stylesheet" href="portfolio.css">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-1">
+<body data-bs-spy="scroll" data-bs-target="#navbar">
     <header id="header" class="d-flex flex-column justify-content-center">
-        <nav id="navbar-1" class="navbar navbar-expand-lg">
-            <ul class="nav flex-column justify-content-center">
+        <div id="navbar" class="navbar navbar-expand-lg">
+            <ul class="nav flex-column justify-content-center nav-tabs" role="tablist">
                 <li class="nav-item rounded-pill">
-                    <a id="about-nav" class="nav-link" aria-current="page" href="#about" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+                    <a id="about-nav" class="nav-link" aria-current="page" href="#about" data-bs-toggle="tooltip"
+                        data-bs-placement="right" data-bs-title="About Me">
                         <i class="fi fi-br-info"></i>
                     </a>
                 </li>
                 <li class="nav-item rounded-pill">
-                    <a id="education-nav" class="nav-link" href="#education" data-toggle="tooltip" data-placement="bottom"
-                        title="Education">
+                    <a id="education-nav" class="nav-link" href="#education" data-bs-toggle="tooltip"
+                        data-bs-placement="right" data-bs-title="Education">
                         <i class="fi fi-br-graduation-cap"></i></a>
                 </li>
                 <li class="nav-item rounded-pill">
-                    <a id="skills-nav" tool-tip="skills" class="nav-link" href="#skills" data-toggle="tooltip"
-                        data-placement="bottom" title="Skills">
+                    <a id="skills-nav" class="nav-link" href="#skills" data-bs-toggle="tooltip"
+                        data-bs-placement="right" data-bs-title="Skills">
                         <i class="fi fi-br-magic-wand"></i></a>
                 </li>
                 <li class="nav-item rounded-pill">
-                    <a id="projects-nav" class="nav-link" href="#projects" data-toggle="tooltip" data-placement="bottom"
-                        title="Projects"><i class="fi fi-br-square-terminal"></i></a>
+                    <a id="projects-nav" class="nav-link" href="#projects" data-bs-toggle="tooltip"
+                        data-bs-placement="right" data-bs-title="Projects"><i class="fi fi-br-square-terminal"></i></a>
                 </li>
                 <li class="nav-item rounded-pill">
-                    <a id="resume-nav" class="nav-link" href="#resume" data-toggle="tooltip" data-placement="bottom"
-                        title="Resume"><i class="fi fi-br-file-user"></i></a>
+                    <a id="resume-nav" class="nav-link" href="#resume" data-bs-toggle="tooltip"
+                        data-bs-placement="right" data-bs-title="Resume"><i class="fi fi-br-file-user"></i></a>
                 </li>
                 <li class="nav-item rounded-pill">
-                    <a id="contact-nav" class="nav-link" href="#contact" data-toggle="tooltip" data-placement="bottom"
-                        title="Contact"><i class="fi fi-br-comment-smile"></i></a>
+                    <a id="contact-nav" class="nav-link" href="#contact" data-bs-toggle="tooltip"
+                        data-bs-placement="right" data-bs-title="Contact"><i class="fi fi-br-comment-smile"></i></a>
                 </li>
             </ul>
-        </nav>
-    
-      </header>
-   
+        </div>
+
+    </header>
+
 
 
     <section id="about" class="py-5 d-flex flex-column justify-content-center">
         <div class="container">
-            <h1 class="text-end">About Me</h1>
+            <h1 class="text-end">ABOUT ME</h1>
             <div class="jumbotron">
                 <h1 class="display-4">Zhongwen Zhou (JoJo)</h1>
-                <h3 class="lead">Software developer graduated from Mohawk College passionated in web application development.</h3>
-                <p>My experience in software development, system design and project management will definitely be able to contribute to the success of your projects.</p>
+                <h3 class="lead">Software developer graduated from Mohawk College exploring web application development
+                    technologies.</h3>
+                <p>My experience in software development, system design and project management will definitely be able
+                    to contribute to the success of your projects.</p>
+
                 <hr class="my-4">
-                
+
+                <p>More about myself:</p>
+                <ul>
+                    <li>#ENFJ</li>
+                    <li>Enjoy baking</li>
+                    <li>Love Music</li>
+                    <li>Fiction lover</li>
+                    <li>Shopping!</li>
+                    <li>Language learner</li>
+                </ul>
+
                 <p class="lead">
-                    <p>Disclaimer: This portfolio is created for an assignment and the information below are
-                        fake.</p>
-                    <p>To learn more: </p>
-                    <a class="btn btn-lg rounded-circle" href="https://github.com/jojozhou0927"><i class="bi bi-github"></i></a>
-                    <a class="btn btn-lg rounded-circle" href="www.linkedin.com/in/jojo-zhou-97a500258"><i class="bi bi-linkedin"></i></a>
-                    
-                </p>
+                <p>Disclaimer: This portfolio is created for an assignment and the information below are
+                    fake.</p>
+                <p>To learn more: </p>
+                <a class="btn btn-lg rounded-circle" href="https://github.com/jojozhou0927"><i
+                        class="bi bi-github"></i></a>
+                <a class="btn btn-lg rounded-circle" href="www.linkedin.com/in/jojo-zhou-97a500258"><i
+                        class="bi bi-linkedin"></i></a>
             </div>
         </div>
     </section>
 
     <section id="education">
         <div class="container">
-            <h1 class="text-end">Education</h1>
+            <h1 class="text-end">EDUCATION</h1>
             <div class="card">
-                <img src="https://www.mohawkcollege.ca/themes/de_theme/logo-color.png" class="card-img self-align-center"
-                    alt="Mohawk Logo">
+                <img src="https://www.mohawkcollege.ca/themes/de_theme/logo-color.png"
+                    class="card-img self-align-center" alt="Mohawk Logo">
 
                 <div class="card-image-overlay">
                     <div class="card-title">
                         <h2>Mohawk College</h2>
                     </div>
                     <div class="card-body">
-                        <h5>Computer Systems Technician - Software Support</h3>
+                        <h5>Computer Systems Technician - Software Support (2022-2024)</h5>
+                            <ul>
+                                <li>Server Side Web Programming</li>
+                                <li>Client Side Web Programming</li>
+                                <li>Database Theory</li>
+                                <li>Software Quality & Testing</li>
+                                <li>Software Dev Tools & Practices</li>
+                                <li>System Analysis & Design</li>
+                                <li>Data Structure and Algorithm</li>
+                            </ul>
                     </div>
-                    <div class="card-footer">
-                        <p>2022 - 2024</p>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <section id="skills" class="py-5">
+    <section id="skills">
         <div class="container">
-            <h1 class="text-end">Skills</h1>
+            <h1 class="text-end">SKILLS</h1>
             <div class="card">
                 <div class="card-header">
                     Programming Languages
                 </div>
-                <div class="card-body d-flex flex-wrap">
+                <div class="card-body d-flex flex-wrap text-center">
                     <div>
                         <img src="asset/img/java-script.png" alt="JavaScript">
                         <p>JavaScript</p>
@@ -127,6 +147,10 @@
                         <p>Python</p>
                     </div>
                     <div>
+                        <img src="asset/img/php.png" alt="PHP">
+                        <p>PHP</p>
+                    </div>
+                    <div>
                         <img src="asset/img/sql.png" alt="SQL">
                         <p>SQL</p>
                     </div>
@@ -136,7 +160,7 @@
                 <div class="card-header">
                     Tools
                 </div>
-                <div class="card-body d-flex flex-wrap">
+                <div class="card-body d-flex flex-wrap text-center">
                     <div>
                         <img src="asset/img/vs.png" alt="Visual Studio">
                         <p>Visual Studio</p>
@@ -166,6 +190,14 @@
                         <p>MySQL</p>
                     </div>
                     <div>
+                        <img src="asset/img/react.png" alt="React">
+                        <p>React</p>
+                    </div>
+                    <div>
+                        <img src="asset/img/bootstrap.png" alt="bootstrap">
+                        <p>Bootstrap</p>
+                    </div>
+                    <div>
                         <img src="asset/img/wordpress.png" alt="Wordpress">
                         <p>WordPress</p>
                     </div>
@@ -175,7 +207,7 @@
                 <div class="card-header">
                     Other Skills
                 </div>
-                <div class="card-body d-flex flex-wrap">
+                <div class="card-body d-flex flex-wrap text-center">
                     <div>
                         <img src="asset/img/uml.png" alt="System Analysis & Design">
                         <p>System Analysis & Design</p>
@@ -187,21 +219,20 @@
 
                 </div>
             </div>
-        </div>
-
+            <div class="footer text-end">All icons provided by Flaticon for educational uses.</div>
         </div>
     </section>
 
     <section id="projects">
         <div class="container">
-            <h1 class="text-end">Projects</h1>
-            <div id="carouselExampleCaptions" class="carousel slide">
+            <h1 class="text-end">PROJECTS</h1>
+            <div id="projectCarousel" class="carousel slide">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
@@ -209,7 +240,7 @@
                         <img src="asset/img/candyshop.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Candy Shop</h5>
-                            <p>Website designed for local candy shop to promote its products built React</p>
+                            <p>Website designed for local candy shop to promote its products built with React</p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -227,119 +258,99 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div class="footer text-end">All project images provided by Freepik.com for educational uses.</div>
         </div>
-    </section>
-
     </section>
 
     <section id="resume">
         <div class="container">
-            <h1 class="text-end">Resume</h1>
-            
-            
-              
-                <div id="exp-1" class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-3 text-center">
-                            <img src="asset/img/global.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-9">
-                            <div class="card-body">
-                                <h5 class="card-title">Software Developer - Unreal Global Tech</h5>
-                                <p class="card-text">Work closely with customers and develop business websites, mobile applications for their needs.</p>
-                                <p class="card-text"><small class="text-body-secondary">2024</small>
-                                <p class="card-footer">HTML, JavaScript, CSS</p>
-                                </p>
-                            </div>
+            <h1 class="text-end">RESUME</h1>
+            <div id="exp-1" class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-3 text-center">
+                        <img src="asset/img/global.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title">Software Developer - Unreal Global Tech</h5>
+                            <p class="card-text">Work closely with customers and develop business websites, mobile
+                                applications for their needs.</p>
+                            <p class="card-text"><small class="text-body-secondary">2024</small>
+                            <p class="card-footer">HTML, JavaScript, CSS</p>
                         </div>
                     </div>
                 </div>
-                    
-                   
-                <div id="exp-2" class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-3 text-center">
-                            <img src="asset/img/ABCEdu.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-9">
-                            <div class="card-body">
-                                <h5 class="card-title">Mobile Application Developer - Imaginary ABC
-                                    Education</h5>
-                                <p class="card-text">Develop educational games, web applications for young kids to learn reading, math and science.</p>
-                                <p class="card-text"><small class="text-body-secondary">2023 - 2024</small>
-                                <p class="card-footer">HTML, JavaScript, CSS</p>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            </div>
 
-                <div id="exp-3" class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-3 text-center">
-                            <img src="asset/img/gamestudio.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-9">
-                            <div class="card-body">
-                                <h5 class="card-title">Game Development Intern - Unrealistic Game Studio</h5>
-                                <p class="card-text">Develop differnt types of games with Javascript that can be played directly in the browser</p>
-                                <p class="card-text"><small class="text-body-secondary">2023</small>
-                                <p class="card-footer">HTML, JavaScript, CSS</p>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div id="exp-4" class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-3 text-center">
-                            <img src="asset/img/Mohawk-College-Logo.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-9">
-                            <div class="card-body">
-                                <h5 class="card-title">Volunteer</h5>
-                                <p class="card-text">Assist in development of simple websites</p>
-                                <p class="card-text"><small class="text-body-secondary">2022</small>
-                                <p class="card-footer">HTML, CSS</p>
-                                </p>
-                            </div>
+            <div id="exp-2" class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-3 text-center">
+                        <img src="asset/img/ABCEdu.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile Application Developer Intern - Imaginary ABC
+                                Education</h5>
+                            <p class="card-text">Develop educational games, web applications for young kids to learn
+                                reading, math and science.</p>
+                            <p class="card-text"><small class="text-body-secondary">2023 - 2024</small>
+                            <p class="card-footer">HTML, JavaScript, CSS</p>
                         </div>
                     </div>
                 </div>
-          </div>
+            </div>
+
+            <div id="exp-4" class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-3 text-center">
+                        <img src="asset/img/Mohawk-College-Logo.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title">Volunteer</h5>
+                            <p class="card-text">Assist in development of simple websites</p>
+                            <p class="card-text"><small class="text-body-secondary">2022</small>
+                            <p class="card-footer">HTML, CSS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer text-end">All company logos provided by Flaticon for educational uses.</div>
+        </div>
     </section>
 
     <section id="contact" class="py-5">
-        <div class="container">
-            <h1 class="text-end">Contact</h1>
+        <div class="container justify-content-center">
+            <h1 class="text-end">CONTACT</h1>
             <div class="col-md-6">
-            <div class="list-group list-group-flush row gy-5">
-                <a href="mailto:zhongwen.zhou@mohawkcollege.ca" class="list-group-item list-group-item-action"
-                    aria-current="true">
-                    <i class="bi bi-envelope"></i> Email: zhongwen.zhou@mohawkcollege.ca
-                </a>
-                <a href="https://github.com/jojozhou0927" class="list-group-item list-group-item-action"
-                    aria-current="true">
-                    <i class="bi bi-github"></i> GitHub: jojozhou0927
-                </a>
-                <a href="www.linkedin.com/in/jojo-zhou-97a500258" class="list-group-item list-group-item-action"
-                    aria-current="true">
-                    <i class="bi bi-linkedin"> </i> Linkedin: Zhongwen Zhou
-                </a>
-                 
-            </div></div>
+                <div class="list-group list-group-flush row gy-5">
+                    <a href="mailto:zhongwen.zhou@mohawkcollege.ca" class="list-group-item list-group-item-action"
+                        aria-current="true">
+                        <i class="bi bi-envelope"></i> Email: zhongwen.zhou@mohawkcollege.ca
+                    </a>
+                    <a href="https://github.com/jojozhou0927" class="list-group-item list-group-item-action"
+                        aria-current="true">
+                        <i class="bi bi-github"></i> GitHub: jojozhou0927
+                    </a>
+                    <a href="www.linkedin.com/in/jojo-zhou-97a500258" class="list-group-item list-group-item-action"
+                        aria-current="true">
+                        <i class="bi bi-linkedin"> </i> Linkedin: Zhongwen Zhou
+                    </a>
+
+                </div>
+            </div>
         </div>
     </section>
 
@@ -354,21 +365,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
-
+    <footer class="container">
+        <h5>© 2024 My Portfolio</h5>
+        <p>This portfolio is created for an assigment and may contains inaccurate information for display purpose.</p>
+    </footer>
 </body>
-
-<footer>
-    <h5>© 2024 My Portfolio</h5>
-    <p>This portfolio is created for an assigment and may contains inaccurate information for display purpose.</p>
-    <ul class="list-group">
-        <a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Pixel perfect -
-            Flaticon</a>
-        <a href="https://www.freepik.com/free-vector/abstract-low-poly-network-communications-banner-design_21952524.htm#&position=14&from_view=search&track=ais&uuid=beb0980f-0ffb-461e-8a3e-868e0deb21b8#position=14">Image by kjpargeter</a> on Freepik
-    </ul>
-</footer>
-
 </html>
